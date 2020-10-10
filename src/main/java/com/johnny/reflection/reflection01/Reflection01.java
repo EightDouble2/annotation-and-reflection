@@ -1,4 +1,4 @@
-package com.johnny.reflection.Reflection01;
+package com.johnny.reflection.reflection01;
 
 /**
  * 获取Class类对象
@@ -17,7 +17,7 @@ public class Reflection01 {
         System.out.println(s1.hashCode());
 
         // 方式二：forName方法获得
-        Class<?> s2 = Class.forName("com.johnny.reflection.Reflection01.Student");
+        Class<?> s2 = Class.forName("com.johnny.reflection.reflection01.Student");
         System.out.println(s2.hashCode());
 
         // 方式三：通过类名.class获得

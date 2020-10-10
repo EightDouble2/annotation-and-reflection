@@ -1,4 +1,4 @@
-package com.johnny.reflection.Reflection02;
+package com.johnny.reflection.reflection02;
 
 /**
  * 类加载器
@@ -23,7 +23,7 @@ public class Reflection02 {
         System.out.println(oldParent);
 
         // 获取当前类的加载器
-        ClassLoader classLoader = Class.forName("com.johnny.reflection.Reflection02.Reflection02").getClassLoader();
+        ClassLoader classLoader = Class.forName("com.johnny.reflection.reflection02.Reflection02").getClassLoader();
         System.out.println(classLoader);
 
         // 获取JDK内置类的加载器
